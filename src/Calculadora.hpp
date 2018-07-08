@@ -55,7 +55,10 @@ Calculadora::~Calculadora(){
 
 
 bool Calculadora::ejecutando() {
-    return (indiceInstruccion < (get<2>(progCalc[indiceRutinaActual])));
+    if (indiceRutinaActual > 0 && indiceInstruccion < (get<2>(progCalc[indiceRutinaActual])))
+    return true;
+    else
+        return false;
 }
 
 void Calculadora::ejecutarUnPaso() {

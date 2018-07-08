@@ -22,8 +22,7 @@ private:
 public:
     Programa();
     ~Programa();
-    void AgregarAunNoExiste(Instruccion,int);
-    void BuscarEnAunNoExiste(Id, int);
+
     void AgInstruccion(string,Instruccion);
     vector<string> Rutinas() const;
     int longitud(string ) const ;
@@ -46,9 +45,11 @@ private:
 
     };
     vector<Rutina*> ListaProg;
-    vector<tuple<Id,list<tuple<Instruccion,int>*>>> AunNoExistentes;
+    vector<tuple<Id,vector<tuple<Instruccion,int>*>>> AunNoExistentes;
     int cantRutina;
 
+    void AgregarAunNoExiste(Instruccion,int);
+    void BuscarEnAunNoExiste(Id, int);
 
 };
 

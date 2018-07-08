@@ -23,7 +23,7 @@ void Programa::AgregarAunNoExiste(Instruccion instr, int indiceRut) {
         i++;
     }
     if (encontrado == false) {
-        list<tuple<Instruccion, int>*> vacia;
+        vector<tuple<Instruccion, int>*> vacia;
         int tamaniodelaRutina = ListaProg[indiceRut]->tamRut;
         vacia.push_back(*((*ListaProg[indiceRut]).instRut[tamaniodelaRutina-1]));
         AunNoExistentes.push_back(make_tuple(instr.nombreRutina(), vacia));
@@ -36,12 +36,23 @@ void Programa::BuscarEnAunNoExiste(Id r, int indiceRut) {
     while(i<AunNoExistentes.size() && !encontrado) {
         if (get<0>(AunNoExistentes[i]) == r) {
             encontrado = true;
-            list<tuple<Instruccion, int> *>::iterator it = (get<1>(AunNoExistentes[i])).begin();
-            while (it != (get<1>(AunNoExistentes[i])).end()) {
-                get<1>(*it) = indiceRut;
+            int j=0;
+            while (j<(get<1>(AunNoExistentes[i])).size()){
+                get<1>(*(get<1>(AunNoExistentes[i])[j]))=indiceRut;
+                j++;
             }
         }
+        i++;
     }
+    int l=0;
+    for (int k = 0; k < AunNoExistentes.size()-1; ++k) {
+        if (get<0>(AunNoExistentes[i]) == r)
+            l++;
+        AunNoExistentes[k]==AunNoExistentes[l];
+        k++;
+        l++;
+    }
+    AunNoExistentes.pop_back();
 }
 
 
