@@ -1,5 +1,7 @@
 #include "Instruccion.h"
 
+Instruccion::Instruccion():_valor(),operacion(),nombre(){}
+
 void Instruccion::IPUSH(int valor){
     operacion=OPUSH;
     _valor=valor;

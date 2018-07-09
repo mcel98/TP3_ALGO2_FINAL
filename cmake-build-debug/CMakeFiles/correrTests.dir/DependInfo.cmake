@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/src/Driver.cpp" "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/cmake-build-debug/CMakeFiles/correrTests.dir/src/Driver.cpp.o"
-  "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/tests/test_calculadora.cpp" "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o"
-  "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/tests/test_diccTrie.cpp" "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_diccTrie.cpp.o"
-  "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/tests/test_driver.cpp" "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_driver.cpp.o"
-  "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/tests/test_instruccion.cpp" "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o"
-  "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/tests/test_ventana.cpp" "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_ventana.cpp.o"
+  "C:/Users/Usuario/Documents/programacion/solucion/src/Driver.cpp" "C:/Users/Usuario/Documents/programacion/solucion/cmake-build-debug/CMakeFiles/correrTests.dir/src/Driver.cpp.obj"
+  "C:/Users/Usuario/Documents/programacion/solucion/tests/test_calculadora.cpp" "C:/Users/Usuario/Documents/programacion/solucion/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.obj"
+  "C:/Users/Usuario/Documents/programacion/solucion/tests/test_diccTrie.cpp" "C:/Users/Usuario/Documents/programacion/solucion/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_diccTrie.cpp.obj"
+  "C:/Users/Usuario/Documents/programacion/solucion/tests/test_driver.cpp" "C:/Users/Usuario/Documents/programacion/solucion/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_driver.cpp.obj"
+  "C:/Users/Usuario/Documents/programacion/solucion/tests/test_instruccion.cpp" "C:/Users/Usuario/Documents/programacion/solucion/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.obj"
+  "C:/Users/Usuario/Documents/programacion/solucion/tests/test_programa.cpp" "C:/Users/Usuario/Documents/programacion/solucion/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_programa.cpp.obj"
+  "C:/Users/Usuario/Documents/programacion/solucion/tests/test_ventana.cpp" "C:/Users/Usuario/Documents/programacion/solucion/cmake-build-debug/CMakeFiles/correrTests.dir/tests/test_ventana.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,8 +21,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/dn-01/Escritorio/Algoritmo y Estructura de datos II/Trabajos Prácticos/TP3/tp3/alumnos/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "C:/Users/Usuario/Documents/programacion/solucion/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "C:/Users/Usuario/Documents/programacion/solucion/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

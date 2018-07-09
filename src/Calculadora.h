@@ -1,8 +1,8 @@
 //
 // Created by dn-01 on 01/07/18.
 //
-#ifndef SOLUCION_CALCULADORA_H
-#define SOLUCION_CALCULADORA_H
+#ifndef CALCULADORA_H_
+#define CALCULADORA_H_
 
 #include "Programa.hpp"
 #include "Ventana.h"

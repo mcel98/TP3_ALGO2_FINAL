@@ -1,6 +1,4 @@
-//
-// Created by dn-01 on 07/07/18.
-//
+
 #include <gtest/gtest.h>
 #include "../src/Instruccion.hpp"
 
